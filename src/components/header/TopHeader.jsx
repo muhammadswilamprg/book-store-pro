@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const TopHeader = ({ setToggle, toggle }) => {
     const handleToggle = () => {
         setToggle(prev => !prev)
@@ -18,10 +20,10 @@ const TopHeader = ({ setToggle, toggle }) => {
             <div className="header-top-text">
                 Welcome To Online Book Store Pro
             </div>
-            <div className="header-top-link">
+            <Link to="/login" className="header-top-link">
                 <i className="bi bi-person-fill"></i>
                 login
-            </div>
+            </Link>
         </div>
     );
 }
