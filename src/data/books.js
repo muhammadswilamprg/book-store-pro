@@ -3,14 +3,15 @@ export const BOOKS = [
         id:1,
         price: 10.50,
         rating:5,
-        title: "Atomic Habits:Proven Way To Build Good Habits",
+        title: "Atomic Habits: Proven Way To Build Good Habits",
         author: "James Clear",
         reviews: "69,548",
         image: "atomic-habits.jpg",
         printLength: 320,
         language: "English",
-        PublicationDate: "16 April 2018",
+        publicationDate: "16 April 2018",
         inStock: true,
+        description: "A transformative guide to developing positive habits, breaking bad ones, and mastering self-improvement through small, consistent changes."
     },
     {
         id:2,
@@ -22,8 +23,9 @@ export const BOOKS = [
         image: "confess.jpg",
         printLength: 410,
         language: "English",
-        PublicationDate: "1 March 2015",
+        publicationDate: "1 March 2015",
         inStock: true,
+        description: "A gripping romance novel about secrets, love, and the power of confession, weaving a heartfelt and emotional journey of two lost souls."
     },
     {
         id:3,
@@ -35,8 +37,9 @@ export const BOOKS = [
         image: "the-trouble-with-hating-you.jpg",
         printLength: 352,
         language: "English",
-        PublicationDate: "1 June 2019",
+        publicationDate: "1 June 2019",
         inStock: true,
+        description: "A witty enemies-to-lovers romance featuring a strong, independent woman and a determined man who challenge each other in unexpected ways."
     },
     {
         id:4,
@@ -48,8 +51,9 @@ export const BOOKS = [
         image: "hopeless.jpg",
         printLength: 416,
         language: "English",
-        PublicationDate: "8 October 2012",
+        publicationDate: "8 October 2012",
         inStock: true,
+        description: "An emotional and intense love story filled with deep secrets, heartbreak, and a search for the truth that changes everything."
     },
     {
         id:5,
@@ -61,8 +65,9 @@ export const BOOKS = [
         image: "rich-dad-poor-dad.jpg",
         printLength: 336,
         language: "English",
-        PublicationDate: "27 April 2017",
+        publicationDate: "27 April 2017",
         inStock: true,
+        description: "A financial education classic that contrasts two mindsets about money, wealth, and financial independence through the author's personal experiences."
     },
     {
         id:6,
@@ -74,8 +79,9 @@ export const BOOKS = [
         image: "one-true-love.jpg",
         printLength: 342,
         language: "English",
-        PublicationDate: "17 July 2016",
+        publicationDate: "17 July 2016",
         inStock: true,
+        description: "A moving love story exploring themes of fate, choice, and rediscovering love after a shocking revelation shakes a woman’s world."
     },
     {
         id:7,
@@ -87,8 +93,9 @@ export const BOOKS = [
         image: "think-and-grow-rich.jpg",
         printLength: 320,
         language: "English",
-        PublicationDate: "1 September 2005",
+        publicationDate: "1 September 2005",
         inStock: true,
+        description: "A timeless self-development book that reveals the principles of financial success and achieving personal goals through mindset and persistence."
     },
     {
         id:8,
@@ -100,8 +107,9 @@ export const BOOKS = [
         image: "never-split-the-difference.jpg",
         printLength: 288,
         language: "English",
-        PublicationDate: "23 March 2017",
+        publicationDate: "23 March 2017",
         inStock: true,
+        description: "An essential guide to negotiation, written by a former FBI hostage negotiator, teaching strategies to get the best outcomes in any situation."
     },
     {
         id:9,
@@ -113,8 +121,9 @@ export const BOOKS = [
         image: "it-ends-with-us.jpg",
         printLength: 325,
         language: "English",
-        PublicationDate: "4 December 2018",
-        inStock: true, 
+        publicationDate: "4 December 2018",
+        inStock: true,
+        description: "A motivational book focusing on self-love, positive thinking, and personal growth to create a happier and more fulfilling life."
     },
     {
         id:10,
@@ -126,8 +135,8 @@ export const BOOKS = [
         image: "beginning.jpg",
         printLength: 128,
         language: "English",
-        PublicationDate: "16 April 2018",
+        publicationDate: "16 April 2018",
         inStock: false,
+        description: "A foundational art book that provides step-by-step techniques and exercises for beginners to master the art of realistic drawing."
     },
-]
-
+];

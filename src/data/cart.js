@@ -1,4 +1,4 @@
-export const cartInfo = [
+export const CART_INFO = [
     {
         id:1,
         bookId: 8,
