@@ -56,17 +56,38 @@
 .cart-item-quantity {
     font-size: 24px;
     margin-bottom: 5px;
+    color: white;
+    background-color: #222;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+
 }
 
 .cart-item-quantity button {
     padding: 5px;
     cursor: pointer;
     font-size: 17px;
+    color: white;
+    background-color: #222;
+    transition: all 0.3s;
 }
+.cart-item-quantity button:hover {
+    background-color: #fff;
+    color: #222;
+}
+
+/*.plus-btn {
+    border-radius: 8px 0 0 8px;
+}
+.dash-btn {
+    border-radius: 0 8px 8px 0;
+}*/
 
 .cart-item-quantity b {
     font-size: 24px;
-    margin: 0 10px;
+    padding: 5px;
 }
 
 .cart-item-price {
