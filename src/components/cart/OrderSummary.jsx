@@ -1,6 +1,9 @@
+import { useContext } from "react";
 import { CART_INFO } from "../../data/cart";
+import CartContext from "../../context/cartContext";
 const OrderSummary = () => {
-    const totalPrice = CART_INFO.reduce((acc, cur) => acc + cur.price * cur.quantity, 0 )
+    const { cartItems } = useContext(CartContext)
+    const totalPrice = cartItems.reduce((acc, cur) => acc + cur.price * cur.quantity, 0 )
     return ( 
         <div className="cart-order-summary">
             <div className="order-summary-title">

@@ -1,7 +1,11 @@
+import { useContext, useState } from "react";
 import Rating from "../book-slider/Rating";
+import CartContext from "../../context/cartContext";
 
 
-const Book = ({book}) => {
+const Book = ({ book }) => {
+    const { addToCart } = useContext(CartContext);
+    const [qty, setQty] = useState(1);
     return ( 
         <>
             <div className="book-content">
@@ -13,8 +17,18 @@ const Book = ({book}) => {
                     </div>
                     <Rating rating={book.rating} reviews={book.reviews} />
                     <div className="book-add-to-cart">
-                        <input type="number" min="1" max="100" className="book-add-to-card-input" />
-                        <button className="book-add-to-cart-btn">
+                        <input
+                            className="book-add-to-card-input"
+                            type="number"
+                            min="1"
+                            max="100"
+                            value={qty}
+                            onChange={e => setQty(e.target.value)}
+                        />
+                        <button
+                            onClick={() => addToCart({ ...book, quantity: qty })}
+                            className="book-add-to-cart-btn"
+                        >
                             <i className="bi bi-cart-plus"></i>
                             Add To Cart
                         </button>

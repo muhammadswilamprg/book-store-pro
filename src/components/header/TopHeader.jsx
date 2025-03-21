@@ -14,7 +14,7 @@ const TopHeader = ({ setToggle, toggle }) => {
                 )}
             </div>
             <div className="header-top-phone">
-                <i class="bi bi-telephone-fill"></i>
+                <i className="bi bi-telephone-fill"></i>
                 123-456-789
             </div>
             <div className="header-top-text">
