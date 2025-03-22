@@ -3,7 +3,7 @@ import { CART_INFO } from "../../data/cart";
 import CartContext from "../../context/cartContext";
 const OrderSummary = () => {
     const { cartItems } = useContext(CartContext)
-    const totalPrice = cartItems.reduce((acc, cur) => acc + cur.price * cur.quantity, 0 )
+    const totalPrice = cartItems.reduce((acc, cur) => acc + cur.price * cur.quantity, 0 ).toFixed(2)
     return ( 
         <div className="cart-order-summary">
             <div className="order-summary-title">

@@ -1,4 +1,4 @@
-export const authors = [
+export const AUTHORS = [
     {
         id: 1,
         name: "Nizar Qabbani",

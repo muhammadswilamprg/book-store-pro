@@ -74,9 +74,14 @@
     transition: all 0.3s;
     font-weight: 700;
 }
+
+.cart-item-quantity button:disabled {
+    cursor: not-allowed;
+}
+
 .cart-item-quantity button:hover {
-    background-color: #fff;
-    color: #222;
+    background-color: #444;
+    color: snow;
 }
 
 /*.plus-btn {
